@@ -1,4 +1,4 @@
-# Image Captioning + Segmentation + RAG (Pro Version)
+# Image Captioning + Segmentation 
 
 This is an **upgraded** version that uses real models:
 - **Captioning:** BLIP (Salesforce/blip-image-captioning-base) via 🤗 Transformers
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 > If PyTorch fails: visit https://pytorch.org/get-started/locally/ for the right command (CUDA vs CPU).
 
-### 2) Build the RAG index (optional but recommended)
+### 2) Build the RAG index 
 Put a few sample images into `data/samples/` then run:
 ```bash
 python utils/rag.py --rebuild
