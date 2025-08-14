@@ -39,11 +39,3 @@ streamlit run app.py
 ## Notes
 - Everything runs on **CPU** by default; if you have CUDA, PyTorch will use it automatically.
 - First run will download model weights (one-time cache).
-
-## Structure
-- `app.py` – Streamlit UI.
-- `utils/feature_extractor.py` – CLIP embeddings (sentence-transformers).
-- `utils/caption_model.py` – BLIP captioner.
-- `utils/segmenter.py` – TorchVision Mask R-CNN, drawing utilities.
-- `utils/rag.py` – FAISS index builder + search.
-- `requirements.txt` – dependencies.
